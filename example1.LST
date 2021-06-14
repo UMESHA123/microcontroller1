@@ -1,0 +1,58 @@
+A51 MACRO ASSEMBLER  EXAMPLE1                                                             06/14/2021 18:51:04 PAGE     1
+
+
+MACRO ASSEMBLER A51 V8.00b
+OBJECT MODULE PLACED IN example1.OBJ
+ASSEMBLER INVOKED BY: C:\Keil\C51\BIN\A51.EXE example1.asm SET(SMALL) DEBUG EP
+
+LOC  OBJ            LINE     SOURCE
+
+                       1     
+                       2     
+                       3     
+                       4     
+                       5     
+                       6     
+                       7     
+                       8     
+                       9     
+                      10     
+                      11     
+                      12     
+                      13     
+                      14     
+                      15     
+                      16     
+                      17     
+                      18     
+0000 7455             19     MOV A,#55H
+0002 7A26             20     MOV R2,#26H
+0004 7910             21     MOV R1,#10H
+                      22     
+0006                  23     LOOP1:
+0006                  24     LOOP2:
+0006 F4               25     CPL A
+0007 D9FD             26     DJNZ R1,LOOP2
+0009 DAFB             27     DJNZ R2,LOOP1
+                      28     END
+                             
+                             
+                             
+                             
+                              
+A51 MACRO ASSEMBLER  EXAMPLE1                                                             06/14/2021 18:51:04 PAGE     2
+
+SYMBOL TABLE LISTING
+------ ----- -------
+
+
+N A M E             T Y P E  V A L U E   ATTRIBUTES
+
+LOOP1. . . . . . .  C ADDR   0006H   A   
+LOOP2. . . . . . .  C ADDR   0006H   A   
+
+
+REGISTER BANK(S) USED: 0 
+
+
+ASSEMBLY COMPLETE.  0 WARNING(S), 0 ERROR(S)
