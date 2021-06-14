@@ -6,3 +6,14 @@ MOV 31H,A  // MOVE THE ACCUMALETR CONTENT TO THE 31H MEMORY LOCATION
 END	 // END THE PROGRAM
 
 
+
+trace:
+a=30h(10)
+addition: a=a+30h 
+          a=(10h)+30h   30h---conten an  data 10h
+          a=10h+30h
+          a=40h
+31h=40h
+
+
+
